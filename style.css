@@ -113,6 +113,9 @@ textarea.materialize-textarea:focus:not([readonly]) {
   box-shadow: 0 1px 0 0 red !important;
 }
 
+.card {
+  margin-bottom: 10vh;
+}
 /*SQUAD*/
 #squad {
   position: relative;
@@ -129,6 +132,8 @@ textarea.materialize-textarea:focus:not([readonly]) {
   height: 100%;
   display: flex;
   overflow: hidden;
+  margin: 0;
+  padding: 0;
 }
 
 .wrapper-positions {
@@ -267,7 +272,7 @@ textarea.materialize-textarea:focus:not([readonly]) {
 
 .player {
   margin-left: 1rem;
-  margin: 1px 0px px 0;
+  margin: 1px 0px 0px 0;
   padding: 0rem;
 }
 
@@ -276,7 +281,7 @@ textarea.materialize-textarea:focus:not([readonly]) {
   padding: 0;
 }
 
-@media screen and (max-width: 475px) {
+@media screen and (max-width: 575px) {
   .player h4 {
     font-size: 1rem;
   }
@@ -304,6 +309,12 @@ textarea.materialize-textarea:focus:not([readonly]) {
   .team-text h4 {
     font-size: 1rem;
   }
+  .card-content p {
+    font-size: 1.5rem;
+  }
+  .wrapper-players {
+    margin-top: 0vh;
+  }
 }
 
 @media screen and (max-width: 375px) {
@@ -330,7 +341,6 @@ textarea.materialize-textarea:focus:not([readonly]) {
     padding: 2rem 0rem;
     display: flex;
     align-items: center;
-    margin-left: 2.5rem;
   }
 
   .wrapper-players {
@@ -345,8 +355,5 @@ textarea.materialize-textarea:focus:not([readonly]) {
   .player h4 {
     margin: 0.5rem;
     padding: 0;
-  }
-  .wrapper {
-    height: 100vh;
   }
 }

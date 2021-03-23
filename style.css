@@ -113,7 +113,7 @@ textarea.materialize-textarea:focus:not([readonly]) {
   box-shadow: 0 1px 0 0 red !important;
 }
 .card p{
-font-size: 20rem;
+font-size: 1rem;
 }
 .card {
   margin-bottom: 10vh;
@@ -282,6 +282,10 @@ font-size: 20rem;
   margin: 0;
   padding: 0;
 }
+
+input{
+  color: white;}
+
 
 @media screen and (max-width: 575px) {
   .player h4 {
